@@ -91,7 +91,7 @@ Use the `docker-compose down` command to stop the stack
 
 Pull the latest version from docker hub with one of the following command
 
-`docker-compose pull` or the script `./scritps/update.sh`
+`docker-compose pull` or the script `./scripts/update.sh`
 
 ## Node-RED error after modifications to setup files
 The Node-RED image differs from the rest of the images in this project. It uses the "build" key. It uses a dockerfile for the setup to inject the nodes for preinstallation. If you get an error for Node-RED run `docker-compose build` then `docker-compose up -d`
@@ -280,7 +280,7 @@ One of the drawbacks of an sd card is that it has a limited lifespan. One way to
 
 ## Dropbox-Uploader
 This a great utility to easily upload data from your PI to the cloud. https://magpi.raspberrypi.org/articles/dropbox-raspberry-pi
-The MagPi has an excellent explanation of the process of setting up the Dropbox API. Dropbox-Uploader is used in the backup script.
+The MagPi has an excellent explanation of the process of setting up the Dropbox API. Dropbox-Uploader is used in the backup ipt.
 
 # Add to the project
 Feel free to add your comments on features or images that you think should be added. 
